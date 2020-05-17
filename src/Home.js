@@ -14,7 +14,7 @@ class Home extends Component {
           </h1>
         </div>
         <div className="about">
-          <p>Need to think of something to put in here....</p>
+          <p></p>
         </div>
         <div className="socialLinks">
           <a href="https://github.com/tms2442">
