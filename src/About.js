@@ -40,8 +40,6 @@ class About extends Component {
             <p>
               Waubonsee Community College <br /> Associate in Applied Science,
               Software Development <br />
-              Certificate in Software Development
-              <br />
               May 2017
             </p>
           </div>
