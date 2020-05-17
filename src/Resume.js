@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Fullres from "./Fullres";
 import "./index.css";
 
 class Resume extends Component {
@@ -18,6 +19,7 @@ class Resume extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/projects" component={Projects} />
+            <Route path="/resume" component={Fullres} />
             <Route component={Error} />
           </Switch>
         </div>

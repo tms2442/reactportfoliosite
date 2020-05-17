@@ -23,6 +23,7 @@ class Nav extends Component {
               <a href="/about">About Me</a>
               <a href="/projects">Projects</a>
               <a href="/contact">Contact Info</a>
+              <a href="/resume">Resume</a>
             </div>
           </div>
         </div>

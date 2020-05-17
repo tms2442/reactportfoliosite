@@ -21,8 +21,8 @@ class About extends Component {
             <p>
               Hi, my name is Thomas Slezak. I recently graduated from Aurora
               University with a Bachelor's in Computer Science. Before I got my
-              Bachelors degree at AU I went to Waubonsee Community College where
-              I got my Associates degree in Software Development. I am
+              Bachelors degree at AU, I went to Waubonsee Community College
+              where I got my Associates degree in Software Development. I am
               passionate about learning and enjoy finding solutions to complex
               problems through programming.
             </p>
