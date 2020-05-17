@@ -1,0 +1,117 @@
+/* .aboutMe {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titleAbt {
+  width: 100%;
+}
+
+.aboutPage {
+  color: white;
+  font-size: 75px;
+  padding: 10px;
+}
+
+.me {
+  color: chartreuse;
+  font-size: 75px;
+  padding: 10px;
+}
+
+.pictureDisplay {
+  padding-left: 50px;
+  width: 20%;
+}
+
+.pictureDisplay img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid chartreuse;
+}
+
+.bio {
+  color: white;
+  width: 75%;
+}
+
+.wawa {
+  padding-top: 50px;
+  box-shadow: inset;
+  text-align: center;
+  color: white;
+  width: 200px;
+  padding-left: 150px;
+}
+
+.au {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  width: 200px;
+} */
+
+.titleAbt {
+  width: 100%;
+  padding-left: 2%;
+}
+
+.aboutPage {
+  color: white;
+  font-size: 75px;
+  padding: 10px;
+}
+
+.me {
+  color: chartreuse;
+  font-size: 75px;
+  padding: 10px;
+}
+
+.pictureDisplay img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid chartreuse;
+}
+
+.abtgrid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "bioimage bio bio"
+    "exp1 exp2 exp3";
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pictureDisplay {
+  grid-area: bioimage;
+  margin: auto;
+}
+
+.bio {
+  grid-area: bio;
+  color: white;
+}
+
+.au {
+  grid-area: exp1;
+}
+
+.wawa {
+  grid-area: exp2;
+}
+
+.skills {
+  grid-area: exp3;
+}
+.bio p {
+  font-size: 20px;
+}
+
+.exp {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}

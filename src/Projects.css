@@ -1,0 +1,44 @@
+.nursingCont {
+  width: 30%;
+  background-color: #333;
+  color: white;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.projHead {
+  color: chartreuse;
+  margin-left: 10%;
+  font-size: 50px;
+}
+
+.nursingCont img {
+  opacity: 1;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.nursingCont h4 {
+  font-size: larger;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.nursingCont p {
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(75, 75, 75);
+  font-size: 30px;
+}
+
+.middleau {
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+}
